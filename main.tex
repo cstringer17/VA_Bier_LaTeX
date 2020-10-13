@@ -1,0 +1,104 @@
+
+\documentclass[12pt]{scrartcl} 
+
+\input{structure.tex}
+
+\usepackage[
+backend=biber,
+style=alphabetic,
+sorting=ynt
+]{biblatex}
+\addbibresource{sample.bib}
+
+
+\title{	
+	\normalfont\small
+	\textsc{Gibmit - VA - IBE17B}\\ 
+	{Lehrperson - Herr Martin Meneghin}
+	\vspace{25pt} 
+	\rule{\linewidth}{0.5pt}\\
+	\vspace{16pt} 
+	{\huge Neue Wege - Bier brauen}\\ 
+	\vspace{10pt} 
+	\rule{\linewidth}{2pt}\\ 
+	\author{\large Callum Stringer, Janik Spies und Fabrizio Franco} 
+	\vspace{12pt} 
+	\date{\small\today} 
+}
+
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\newpage
+\tableofcontents
+
+\section{Vorwort}
+\subsection{Themenwahl}
+
+\newpage
+\section{Einleitung}
+
+\subsection{Mindmap}
+
+
+\subsection{Ziele} \label{introduction}
+
+\section{Hauptteil}
+\section{Finazialle Sicht}
+\section{Degustation}
+
+
+\section{Lernziel}
+
+\section{Schlussbetrachtung}
+\subsection{Schlusswort}
+
+
+\nocite{*}
+\printbibliography[title={Quellenverzeichnis}]
+\addcontentsline{toc}{section}{Quellenverzeichnis}
+
+
+\renewcommand{\listfigurename}{Abbildungsverzeichnis}
+\renewcommand{\listtablename}{Tabellenverzeichnis}
+\addcontentsline{toc}{section}{Abbildungsverzeichnis}
+\addcontentsline{toc}{section}{Tabellenverzeichnis}
+
+
+\vspace*{4em}\noindent
+\hfill%
+\begin{tabular}[t]{c}
+	\rule{10em}{0.4pt} \\ Callum Stringer
+\end{tabular}%
+\hfill%
+\begin{tabular}[t]{c}
+	\rule{10em}{0.4pt} \\ Datum
+\end{tabular}%
+\hfill\strut
+
+\vspace*{4em}\noindent
+\hfill%
+\begin{tabular}[t]{c}
+	\rule{10em}{0.4pt} \\ Fabrizio Franco
+\end{tabular}%
+\hfill%
+\begin{tabular}[t]{c}
+	\rule{10em}{0.4pt} \\ Datum
+\end{tabular}%
+\hfill\strut
+
+\vspace*{4em}\noindent
+\hfill%
+\begin{tabular}[t]{c}
+	\rule{10em}{0.4pt} \\ Janik Spies
+\end{tabular}%
+\hfill%
+\begin{tabular}[t]{c}
+	\rule{10em}{0.4pt} \\ Datum
+\end{tabular}%
+\hfill\strut
+
+
+\end{document}
